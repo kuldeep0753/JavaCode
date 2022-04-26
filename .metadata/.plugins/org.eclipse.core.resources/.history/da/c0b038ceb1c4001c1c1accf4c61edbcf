@@ -1,0 +1,10 @@
+package TriangularPattern;
+
+public class TringularPattern1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

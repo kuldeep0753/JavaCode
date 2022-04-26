@@ -1,0 +1,10 @@
+import java.util.Scanner;
+package Star_Pattern;
+
+public class EqualPattern {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

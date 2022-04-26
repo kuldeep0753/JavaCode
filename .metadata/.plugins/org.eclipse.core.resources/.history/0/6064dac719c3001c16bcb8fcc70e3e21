@@ -1,0 +1,20 @@
+package if_else;
+import java.util.Scanner;
+
+public class largestOfThree {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		int a=scan.nextInt(),b=scan.nextInt(),c=scan.nextInt();
+		if(a>b)
+		{
+			if(b>c) {
+				System.out.println(b+"is greater");
+			}
+			else
+				System.out.println(c+"is greater");
+		}
+		
+	}
+
+}

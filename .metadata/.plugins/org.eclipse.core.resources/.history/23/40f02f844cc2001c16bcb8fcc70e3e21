@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class farhneheitToCelsius {
+
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner(System.in);
+		float c,f=scan.nextFloat();
+		
+		c=(5/9)*(f-32);
+		System.out.println(c);
+	}
+
+}

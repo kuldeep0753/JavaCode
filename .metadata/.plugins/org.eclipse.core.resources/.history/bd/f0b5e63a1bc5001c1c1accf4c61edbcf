@@ -1,0 +1,19 @@
+package Conditional_Loops_Assessment;
+import java.util.Scanner;
+public class Fahrenheit_To_Celsicus {
+
+		public static void main(String[] args) {
+
+	        Scanner s=new Scanner(System.in);
+	        int S=s.nextInt(),E=s.nextInt(),W=s.nextInt(),C;
+	        while(S<=E){
+	            C=(5*(S-32))/9;
+	            System.out.println(S+" "+C);
+	            S+=W;
+	        }
+
+			
+		}
+
+	}
+

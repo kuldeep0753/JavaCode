@@ -1,0 +1,26 @@
+package Pattern_Assessment;
+import java.util.Scanner;
+public class Interesting_Alphabets {
+public static void main(String[] args) {
+			//Your code goes here
+	         Scanner s=new Scanner(System.in);
+	        int n=s.nextInt(),i=1;
+	        char p='A';
+	        
+	        while(i<=n){
+	            int j=1;
+	            
+	            while(j<=i){
+	            	char startingChar=(char)(p+n-j);
+	                System.out.print(startingChar);
+	                p--;
+	                j++;
+	               }
+	             p++;
+	            
+	            System.out.println();
+	                i++;
+	        }
+		
+	}
+}

@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class farhneheitToCelsius {
+
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner(System.in);
+		int f=scan.nextInt();
+		
+//		c=(5/9)*(f-32); // int/int=int...here is zero;
+		//double/int=double
+	//	int c=(5*(f-32)/9); //its working
+		int c=(int)((5.0/9)*(f-32));//Typecasting
+		System.out.println(c);
+	}
+
+}

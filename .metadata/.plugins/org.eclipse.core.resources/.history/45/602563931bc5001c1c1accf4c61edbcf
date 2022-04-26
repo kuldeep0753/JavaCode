@@ -1,0 +1,20 @@
+package Conditional_Loops_Assessment;
+import java.util.Scanner;
+public class Find_Character_Case {
+ public static void main(String[] args) {
+	        // Write your code here
+	        Scanner scan = new Scanner(System.in);
+	        char a=scan.next().charAt(0);
+	        int b=a;
+	        if(97<=b && b<=122){
+	            System.out.println(0);
+	        }
+	        else if(65<=b && b<=90){
+	            System.out.println(1);
+	        }
+	        else
+	             System.out.println(-1);
+   
+	}
+
+}
