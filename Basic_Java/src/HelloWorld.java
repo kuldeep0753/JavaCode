@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class HelloWorld {
+class HelloWorld {
 	//start block:code execute from here
 	public static void main(String args[]) {
 		//if you use println , java will put a newline at the end.
